@@ -18,7 +18,7 @@ def main():
 
 def print_calendar(beginningCal: datetime.date) -> None:
     calText = ''
-    calText += ' '*34 + f'{MONTHS[beginningCal.month-1]}' + f' {beginningCal.year}\n'
+    calText += ' '*34 + f'{MONTHS[beginningCal.month]}' + f' {beginningCal.year}\n'
     calText += '...Monday....Tuesday...Wednesday...Thursday....Friday....Saturday.....Sunday..\n'
     
     weekSeparator = ('+----------'*7) + '+\n'
